@@ -12,10 +12,6 @@ namespace JenkinsTP
         static void Main()
         {
             Console.WriteLine(Add(8, 6));
-            Console.WriteLine(Add(8, 6));
-            Console.WriteLine(Add(8, 6));
-            Console.WriteLine(Add(8, 6));
-            Console.WriteLine("azertyuiopqsdfghhjhkklwxxcvbzeertyusdfghdfrfguinjhigiefgfgfnjinjfgnjdfjbkjnfgjbjbfgjbgfbjkdfjkgfhguieruierueriuiuirtuirtbhvebuhvfbhuvfbh");
         }
 
         public static int Add(int a, int b)
@@ -30,12 +26,7 @@ namespace JenkinsTP
 
         public static int Adding(int a, int b)
         {
-            Console.WriteLine(Add(8, 6));
-            Console.WriteLine(Add(8, 6));
-            Console.WriteLine(Add(8, 6));
-            Console.WriteLine(Add(8, 6));
             Console.WriteLine("azertyuiopqsdfghhjhkklwxxcvbzeertyusdfghdfrfguinjhigiefgfgfnjinjfgnjdfjbkjnfgjbjbfgjbgfbjkdfjkgfhguieruierueriuiuirtuirtbhvebuhvfbhuvfbh");
-
             return a + b;
         }
     }
