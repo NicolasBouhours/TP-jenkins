@@ -23,5 +23,10 @@ namespace JenkinsTP
         {
             return a/b;
         }
+
+        public static int Adding(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
