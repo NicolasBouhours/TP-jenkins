@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 using NUnit.Framework;
 using JenkinsTP;
 
+[assembly: CLSCompliant(true)]
 namespace UnitTestNUnit
 {
     class NUnitTest
     {
 
-        static void Main(string[] args)
+        static void Main()
         {
 
         }
