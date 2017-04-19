@@ -10,11 +10,6 @@ namespace JenkinsTP
 {
     public static class Program
     {
-        private static void Main()
-        {
-            Console.WriteLine(Add(8, 6));
-        }
-
         public static int Add(int a, int b)
         {
             return a + b;
@@ -29,6 +24,11 @@ namespace JenkinsTP
         {
             Console.WriteLine("azertyuiopqsdfghhjhkklwxxcvbzeertyusdfghdfrfguinjhigiefgfgfnjinjfgnjdfjbkjnfgjbjbfgjbgfbjkdfjkgfhguieruierueriuiuirtuirtbhvebuhvfbhuvfbh");
             return a + b;
+        }
+
+        private static void Main()
+        {
+            Console.WriteLine(Add(8, 6));
         }
     }
 }
