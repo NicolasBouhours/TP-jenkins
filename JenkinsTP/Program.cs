@@ -10,7 +10,7 @@ namespace JenkinsTP
 {
     public static class Program
     {
-        public static void Main()
+        private static void Main()
         {
             Console.WriteLine(Add(8, 6));
         }
